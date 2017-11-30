@@ -464,6 +464,38 @@ iframe {
                         }
                     }
                 }
+                &.nav-icon16 {
+
+                    div {
+                        background-image: url(../images/icon16.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon16_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon16_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon17 {
+
+                    div {
+                        background-image: url(../images/icon17.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon17_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon17_disable.png);
+                        }
+                    }
+                }
 
 
             }
@@ -540,7 +572,6 @@ iframe {
                     color: $base-color;
                 }
                 span {
-                    border: 1px solid red;
                     font-weight: bold;
                     height: 55px;
                     width: 80px;
@@ -555,6 +586,30 @@ iframe {
                     }
 
                 }
+                &.nav-item1 {
+                    span {
+                        background-image: url(../images/left_icon1.png);
+
+                    }
+                }
+                &.nav-item2 {
+                    span {
+                        background-image: url(../images/left_icon2.png);
+
+                    }
+                }
+                &.nav-item3 {
+                    span {
+                        background-image: url(../images/left_icon3.png);
+
+                    }
+                }
+                &.nav-item4 {
+                    span {
+                        background-image: url(../images/left_icon4.png);
+
+                    }
+                }
                 &.active-nav {
                     background-color: $base-color;
                     &:before {
@@ -566,7 +621,31 @@ iframe {
                     }
                     &.nav-item1 {
 
-                        span {}
+                        span {
+                            background-image: url(../images/left_icon1_active.png);
+
+                        }
+                    }
+                    &.nav-item2 {
+
+                        span {
+                            background-image: url(../images/left_icon2_active.png);
+
+                        }
+                    }
+                    &.nav-item3 {
+
+                        span {
+                            background-image: url(../images/left_icon3_active.png);
+
+                        }
+                    }
+                    &.nav-item4 {
+
+                        span {
+                            background-image: url(../images/left_icon4_active.png);
+
+                        }
                     }
                 }
                 &:hover {
@@ -635,6 +714,15 @@ iframe {
                 p {
                     text-align: center;
                 }
+            }
+            &.col-title {
+                p {
+                    text-align: left;
+                    font-size: 24px;
+                    color: $caption-color-second;
+                    padding: 0px 0px 0px 25px;
+                }
+
             }
             p {
                 margin: 0px;

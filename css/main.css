@@ -292,6 +292,18 @@ iframe {
           background-image: url(../images/icon15_hover.png); }
         .header .nav li a.nav-icon15.disable div {
           background-image: url(../images/icon15_disable.png); }
+        .header .nav li a.nav-icon16 div {
+          background-image: url(../images/icon16.png); }
+        .header .nav li a.nav-icon16:hover div {
+          background-image: url(../images/icon16_hover.png); }
+        .header .nav li a.nav-icon16.disable div {
+          background-image: url(../images/icon16_disable.png); }
+        .header .nav li a.nav-icon17 div {
+          background-image: url(../images/icon17.png); }
+        .header .nav li a.nav-icon17:hover div {
+          background-image: url(../images/icon17_hover.png); }
+        .header .nav li a.nav-icon17.disable div {
+          background-image: url(../images/icon17_disable.png); }
       .header .nav li p {
         font-size: 20px;
         font-weight: 600;
@@ -352,7 +364,6 @@ iframe {
           font-weight: 600;
           color: #3c6996; }
         .main .colleft .nav-left li span {
-          border: 1px solid red;
           font-weight: bold;
           height: 55px;
           width: 80px;
@@ -361,6 +372,14 @@ iframe {
           @media screen and (max-width: 1400px) {
             .main .colleft .nav-left li span {
               margin: 0px 15px 0px 0px; } }
+        .main .colleft .nav-left li.nav-item1 span {
+          background-image: url(../images/left_icon1.png); }
+        .main .colleft .nav-left li.nav-item2 span {
+          background-image: url(../images/left_icon2.png); }
+        .main .colleft .nav-left li.nav-item3 span {
+          background-image: url(../images/left_icon3.png); }
+        .main .colleft .nav-left li.nav-item4 span {
+          background-image: url(../images/left_icon4.png); }
         .main .colleft .nav-left li.active-nav {
           background-color: #3c6996; }
           .main .colleft .nav-left li.active-nav:before {
@@ -368,6 +387,14 @@ iframe {
             opacity: 1; }
           .main .colleft .nav-left li.active-nav a {
             color: #fff; }
+          .main .colleft .nav-left li.active-nav.nav-item1 span {
+            background-image: url(../images/left_icon1_active.png); }
+          .main .colleft .nav-left li.active-nav.nav-item2 span {
+            background-image: url(../images/left_icon2_active.png); }
+          .main .colleft .nav-left li.active-nav.nav-item3 span {
+            background-image: url(../images/left_icon3_active.png); }
+          .main .colleft .nav-left li.active-nav.nav-item4 span {
+            background-image: url(../images/left_icon4_active.png); }
         .main .colleft .nav-left li:hover {
           opacity: 0.9; }
   .main .colright {
@@ -410,6 +437,11 @@ iframe {
         width: 200px; }
         .my-table table td.col-caption p {
           text-align: center; }
+      .my-table table td.col-title p {
+        text-align: left;
+        font-size: 24px;
+        color: #cdb683;
+        padding: 0px 0px 0px 25px; }
       .my-table table td p {
         margin: 0px;
         text-align: left;
