@@ -46,16 +46,24 @@ $error-color:#f44336;
 
 $base-color:#252525;
 $base-color-second:#504f4f;
-$text-color: #252525;
-$text-color-second: #999999;
+$text-color: #313131;
+$text-color-second: #949494;
 $text-color-thrid:#acacac;
 
-$active-color: #e5572b;
+
+$button-color:#6d53a3;
+$button-color-hover:#3599cb;
+$button-color-disable:#999999;
+
+$caption-color:#efe8d0;
+$caption-color-second:#cdb683;
+$base-color:#3c6996;
+$active-color: #3c6996;
 $active-color-second: #eee024;
 $active-color-thrid: #b7062b;
 $hover-color:lighten($active-color, 5%);
-$border-color: #dddddd;
-$border-color-second:#e1e8ed;
+$border-color: #898989;
+$border-color-second:#b2b0b0;
 $border-radius:2px;
 $box-color:#f5f5f5;
 
