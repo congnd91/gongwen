@@ -178,15 +178,23 @@ iframe {
         width: 250px;
         margin: 0px 0px 0px -250px; } }
   .header .nav {
-    padding: 0px 0px 0px 0px; }
+    padding: 0px 0px 0px 0px;
+    overflow: auto;
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 100%;
+    min-height: 150px; }
     .header .nav ul {
       padding: 0px;
       list-style: none;
-      margin: 0px; }
+      margin: 0px;
+      display: inline-block;
+      white-space: nowrap; }
     .header .nav li {
-      float: left;
       margin: 10px 20px 0px 0px;
-      text-align: center; }
+      text-align: center;
+      display: inline-block;
+      vertical-align: bottom; }
       .header .nav li a {
         display: block; }
         .header .nav li a div {
@@ -304,6 +312,102 @@ iframe {
           background-image: url(../images/icon17_hover.png); }
         .header .nav li a.nav-icon17.disable div {
           background-image: url(../images/icon17_disable.png); }
+        .header .nav li a.nav-icon18 div {
+          background-image: url(../images/icon18.png); }
+        .header .nav li a.nav-icon18:hover div {
+          background-image: url(../images/icon18_hover.png); }
+        .header .nav li a.nav-icon18.disable div {
+          background-image: url(../images/icon18_disable.png); }
+        .header .nav li a.nav-icon19 div {
+          background-image: url(../images/icon19.png); }
+        .header .nav li a.nav-icon19:hover div {
+          background-image: url(../images/icon19_hover.png); }
+        .header .nav li a.nav-icon19.disable div {
+          background-image: url(../images/icon19_disable.png); }
+        .header .nav li a.nav-icon20 div {
+          background-image: url(../images/icon20.png); }
+        .header .nav li a.nav-icon20:hover div {
+          background-image: url(../images/icon20_hover.png); }
+        .header .nav li a.nav-icon20.disable div {
+          background-image: url(../images/icon20_disable.png); }
+        .header .nav li a.nav-icon21 div {
+          background-image: url(../images/icon21.png); }
+        .header .nav li a.nav-icon21:hover div {
+          background-image: url(../images/icon21_hover.png); }
+        .header .nav li a.nav-icon21.disable div {
+          background-image: url(../images/icon21_disable.png); }
+        .header .nav li a.nav-icon22 div {
+          background-image: url(../images/icon22.png); }
+        .header .nav li a.nav-icon22:hover div {
+          background-image: url(../images/icon22_hover.png); }
+        .header .nav li a.nav-icon22.disable div {
+          background-image: url(../images/icon22_disable.png); }
+        .header .nav li a.nav-icon23 div {
+          background-image: url(../images/icon23.png); }
+        .header .nav li a.nav-icon23:hover div {
+          background-image: url(../images/icon23_hover.png); }
+        .header .nav li a.nav-icon23.disable div {
+          background-image: url(../images/icon23_disable.png); }
+        .header .nav li a.nav-icon24 div {
+          background-image: url(../images/icon24.png); }
+        .header .nav li a.nav-icon24:hover div {
+          background-image: url(../images/icon24_hover.png); }
+        .header .nav li a.nav-icon24.disable div {
+          background-image: url(../images/icon24_disable.png); }
+        .header .nav li a.nav-icon25 div {
+          background-image: url(../images/icon25.png); }
+        .header .nav li a.nav-icon25:hover div {
+          background-image: url(../images/icon25_hover.png); }
+        .header .nav li a.nav-icon25.disable div {
+          background-image: url(../images/icon25_disable.png); }
+        .header .nav li a.nav-icon26 div {
+          background-image: url(../images/icon26.png); }
+        .header .nav li a.nav-icon26:hover div {
+          background-image: url(../images/icon26_hover.png); }
+        .header .nav li a.nav-icon26.disable div {
+          background-image: url(../images/icon26_disable.png); }
+        .header .nav li a.nav-icon27 div {
+          background-image: url(../images/icon27.png); }
+        .header .nav li a.nav-icon27:hover div {
+          background-image: url(../images/icon27_hover.png); }
+        .header .nav li a.nav-icon27.disable div {
+          background-image: url(../images/icon27_disable.png); }
+        .header .nav li a.nav-icon28 div {
+          background-image: url(../images/icon28.png); }
+        .header .nav li a.nav-icon28:hover div {
+          background-image: url(../images/icon28_hover.png); }
+        .header .nav li a.nav-icon28.disable div {
+          background-image: url(../images/icon28_disable.png); }
+        .header .nav li a.nav-icon29 div {
+          background-image: url(../images/icon29.png); }
+        .header .nav li a.nav-icon29:hover div {
+          background-image: url(../images/icon29_hover.png); }
+        .header .nav li a.nav-icon29.disable div {
+          background-image: url(../images/icon29_disable.png); }
+        .header .nav li a.nav-icon30 div {
+          background-image: url(../images/icon30.png); }
+        .header .nav li a.nav-icon30:hover div {
+          background-image: url(../images/icon30_hover.png); }
+        .header .nav li a.nav-icon30.disable div {
+          background-image: url(../images/icon30_disable.png); }
+        .header .nav li a.nav-icon31 div {
+          background-image: url(../images/icon31.png); }
+        .header .nav li a.nav-icon31:hover div {
+          background-image: url(../images/icon31_hover.png); }
+        .header .nav li a.nav-icon31.disable div {
+          background-image: url(../images/icon31_disable.png); }
+        .header .nav li a.nav-icon32 div {
+          background-image: url(../images/icon32.png); }
+        .header .nav li a.nav-icon32:hover div {
+          background-image: url(../images/icon32_hover.png); }
+        .header .nav li a.nav-icon32.disable div {
+          background-image: url(../images/icon32_disable.png); }
+        .header .nav li a.nav-icon33 div {
+          background-image: url(../images/icon33.png); }
+        .header .nav li a.nav-icon33:hover div {
+          background-image: url(../images/icon33_hover.png); }
+        .header .nav li a.nav-icon33.disable div {
+          background-image: url(../images/icon33_disable.png); }
       .header .nav li p {
         font-size: 20px;
         font-weight: 600;
@@ -436,12 +540,13 @@ iframe {
       .my-table table td.col-caption {
         width: 200px; }
         .my-table table td.col-caption p {
-          text-align: center; }
+          text-align: left;
+          padding: 0px 0px 0px 20px; }
       .my-table table td.col-title p {
         text-align: left;
         font-size: 24px;
         color: #cdb683;
-        padding: 0px 0px 0px 25px; }
+        padding: 0px 0px 0px 20px; }
       .my-table table td p {
         margin: 0px;
         text-align: left;
@@ -460,8 +565,6 @@ iframe {
     .my-table.table-caption-color table td.col-caption {
       width: 200px;
       background-color: #efe8d0; }
-      .my-table.table-caption-color table td.col-caption p {
-        text-align: center; }
     .my-table.table-caption-color table td p {
       margin: 0px;
       text-align: left;
@@ -496,5 +599,12 @@ iframe {
           color: #313131; }
       .my-table.table-multi-col table tbody tr:nth-child(even) {
         background-color: #f7f6f3; }
+
+.nicescroll-rails {
+  transition: opacity ease 0.2s; }
+
+.nicescroll-cursors {
+  border: none !important;
+  background-color: #6d53a3 !important; }
 
 /*# sourceMappingURL=main.css.map */

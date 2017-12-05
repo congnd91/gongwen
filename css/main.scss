@@ -190,15 +190,27 @@ iframe {
     .nav {
 
         padding: 0px 0px 0px 0px;
+        overflow: auto;
+        display: inline-block;
+        white-space: nowrap;
+        max-width: 100%;
+        min-height: 150px;
+
         ul {
             padding: 0px;
             list-style: none;
             margin: 0px;
+            display: inline-block;
+            white-space: nowrap;
+
+
         }
         li {
-            float: left;
+
             margin: 10px 20px 0px 0px;
             text-align: center;
+            display: inline-block;
+            vertical-align: bottom;
 
             a {
                 display: block;
@@ -496,6 +508,262 @@ iframe {
                         }
                     }
                 }
+                &.nav-icon18 {
+
+                    div {
+                        background-image: url(../images/icon18.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon18_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon18_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon19 {
+
+                    div {
+                        background-image: url(../images/icon19.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon19_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon19_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon20 {
+
+                    div {
+                        background-image: url(../images/icon20.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon20_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon20_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon21 {
+
+                    div {
+                        background-image: url(../images/icon21.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon21_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon21_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon22 {
+
+                    div {
+                        background-image: url(../images/icon22.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon22_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon22_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon23 {
+
+                    div {
+                        background-image: url(../images/icon23.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon23_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon23_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon24 {
+
+                    div {
+                        background-image: url(../images/icon24.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon24_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon24_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon25 {
+
+                    div {
+                        background-image: url(../images/icon25.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon25_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon25_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon26 {
+
+                    div {
+                        background-image: url(../images/icon26.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon26_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon26_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon27 {
+
+                    div {
+                        background-image: url(../images/icon27.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon27_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon27_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon28 {
+
+                    div {
+                        background-image: url(../images/icon28.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon28_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon28_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon29 {
+
+                    div {
+                        background-image: url(../images/icon29.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon29_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon29_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon30 {
+
+                    div {
+                        background-image: url(../images/icon30.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon30_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon30_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon31 {
+
+                    div {
+                        background-image: url(../images/icon31.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon31_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon31_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon32 {
+
+                    div {
+                        background-image: url(../images/icon32.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon32_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon32_disable.png);
+                        }
+                    }
+                }
+                &.nav-icon33 {
+
+                    div {
+                        background-image: url(../images/icon33.png);
+                    }
+                    &:hover {
+                        div {
+                            background-image: url(../images/icon33_hover.png);
+                        }
+                    }
+                    &.disable {
+                        div {
+                            background-image: url(../images/icon33_disable.png);
+                        }
+                    }
+                }
 
 
             }
@@ -712,7 +980,8 @@ iframe {
                 width: 200px;
 
                 p {
-                    text-align: center;
+                    text-align: left;
+                    padding: 0px 0px 0px 20px;
                 }
             }
             &.col-title {
@@ -720,7 +989,7 @@ iframe {
                     text-align: left;
                     font-size: 24px;
                     color: $caption-color-second;
-                    padding: 0px 0px 0px 25px;
+                    padding: 0px 0px 0px 20px;
                 }
 
             }
@@ -753,9 +1022,7 @@ iframe {
                     width: 200px;
                     background-color: $caption-color;
 
-                    p {
-                        text-align: center;
-                    }
+                    p {}
                 }
                 p {
                     margin: 0px;
@@ -812,4 +1079,14 @@ iframe {
         }
 
     }
+}
+
+.nicescroll-rails {
+    transition: opacity ease 0.2s;
+}
+
+.nicescroll-cursors {
+    border: none !important;
+
+    background-color: $button-color !important;
 }
