@@ -189,7 +189,7 @@ iframe {
     }
     .nav {
 
-        padding: 0px 0px 0px 0px;
+        padding: 0px 10px 0px 0px;
         overflow: auto;
         display: inline-block;
         white-space: nowrap;
@@ -211,7 +211,85 @@ iframe {
             text-align: center;
             display: inline-block;
             vertical-align: bottom;
+            .fonts-panel {
+                width: 128px;
+                height: 64px;
+                margin: 0px auto;
+                background-color: #dcdcdc;
+                border-radius: 14px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);
+                border: 2px solid #aaaaaa;
+                background-image: none !important;
+                span {
+                    float: left;
+                    width: 50%;
+                    height: 60px;
+                    background: url("../images/icon_text.png") no-repeat center center;
+                    cursor: pointer;
+                    opacity: 0.9;
+                    &:hover {
+                        opacity: 1;
+                    }
+                    &.small {
+                        border-right: 1px solid #aaaaaa;
+                        background-size: 39% 39%;
 
+                    }
+                }
+
+
+            }
+
+            .color-panel {
+
+                width: auto;
+                height: 64px;
+                margin: 0px auto;
+                background-color: #fff;
+                border-radius: 14px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);
+                background-image: none !important;
+
+                .pen {
+                    float: left;
+                    width: 54px;
+                    height: 54px;
+                    float: left;
+                    background: url("../images/icon_pen.png") no-repeat center center;
+
+                    cursor: pointer;
+
+                }
+                &.line {
+                    float: left;
+                    height: 30px;
+                    margin: 10px 0px 0px 0px;
+                    width: 3px;
+                    background-color: $button-color;
+                }
+                .color-item {
+                    border-radius: 50%;
+                    width: 21px;
+                    height: 21px;
+                    float: left;
+                    margin: 23px 10px 0px 10px;
+                    cursor: pointer;
+                    &.white {
+
+                        border: 2px solid #000;
+                    }
+                    &.delete-color {
+
+                        background: url("../images/icon_delete_color.png") no-repeat center center;
+
+                    }
+                }
+
+            }
             a {
                 display: block;
                 div {
@@ -223,8 +301,10 @@ iframe {
                     background-repeat: no-repeat;
                     background-position: center center;
                     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);
+                    padding: 5px;
 
                 }
+
                 &:hover {
                     p {
                         color: $button-color-hover;
